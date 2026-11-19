@@ -1,0 +1,11 @@
+# Estado — biblioteca
+- Actualizado: 19/11/2026 por Claude (commit y subida del relevo documental de Codex del 20/10/2026, a petición de José).
+- Contexto: Repositorio con README de título; finalidad, usuario final y stack sin confirmar. No confundir con Biblioteca Técnica (24.Pistachos).
+- Objetivo autorizado: alternar Claude y Codex conservando instrucciones y contexto; sin cambios funcionales.
+- Decisión aprobada: un asistente cada vez y un resumen compartido en docs/ESTADO.md; conservar reglas y fuentes locales.
+- Realizado: Codex (20/10/2026) creó AGENTS.md y este estado y simplificó CLAUDE.md; Claude (19/11/2026) lo ha subido a GitHub sin cambiar su contenido.
+- Fuentes para retomar: [README.md](../README.md), [AGENTS.md](../AGENTS.md).
+- Git: rama main, sincronizada con origin/main tras el commit del relevo; sin cambios pendientes.
+- Pruebas del producto: no hay código ni comandos de ejecución o pruebas; nada que ejecutar.
+- Siguiente paso: preguntar a José la finalidad, el alcance y la relación con otros proyectos antes de implementar.
+- Bloqueos: ninguno.
