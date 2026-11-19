@@ -1,12 +1,11 @@
 # Estado — biblioteca
 - Actualizado: 19/11/2026 por Claude.
-- Contexto: catálogo personal de los libros que José tiene en casa (finalidad confirmada por José el 19/11/2026). Sin código todavía. No confundir con Biblioteca Técnica (24.Pistachos).
-- Decisiones aprobadas: un asistente cada vez y un resumen compartido en docs/ESTADO.md; finalidad anotada en AGENTS.md.
-- Realizado: Codex (20/10/2026) creó AGENTS.md y este estado; Claude (19/11/2026) lo subió a GitHub y ha anotado la finalidad.
-- Propuesta de Claude (sin aprobar): no hace falta instalar nada; Node.js ya está instalado. Base de datos en un solo archivo (SQLite) o Supabase según dónde se use; datos del libro por ISBN con la API gratuita de Open Library.
-- Herramientas comprobadas: git y rtk funcionan; Node.js instalado; `gh` se queda colgado; Python sin confirmar (la comprobación no respondió).
+- Contexto: catálogo personal de los libros que José tiene en casa. Sin código todavía. No confundir con Biblioteca Técnica (24.Pistachos).
+- Decisiones aprobadas por José (19/11/2026): finalidad anotada en AGENTS.md; se usará en el ordenador y en el móvil, así que los datos deben estar en internet.
+- Propuesta de Claude (sin aprobar): página web sencilla (sirve en móvil y ordenador) + base de datos Supabase con acceso solo para José; datos del libro por ISBN con la API gratuita de Open Library. Fase 1: alta por ISBN, lista, buscador, estantería, leído, prestado a quién y notas. Fase 2 opcional: leer el código de barras con la cámara del móvil.
+- Bloqueo: la cuenta gratuita de Supabase ya tiene sus 2 proyectos activos (cuaderno y cuaderno-pruebas; facturas está pausado). Pendiente de que José elija: pausar cuaderno-pruebas, usar Google Sheets como almacén o pagar Supabase.
+- Herramientas comprobadas: git y rtk funcionan; Node.js instalado; `gh` se queda colgado; Python sin confirmar.
 - Fuentes para retomar: [README.md](../README.md), [AGENTS.md](../AGENTS.md).
 - Git: rama main; este cambio se sube tras el commit.
 - Pruebas del producto: no hay código ni pruebas; nada que ejecutar.
-- Siguiente paso: que José decida si lo usará solo en el ordenador o también en el móvil (por ejemplo, para mirar en una librería si ya tiene un libro); después, proponer un plan breve.
-- Bloqueos: ninguno.
+- Siguiente paso: resolver dónde se guardan los datos y que José apruebe el plan; después, empezar la fase 1.
