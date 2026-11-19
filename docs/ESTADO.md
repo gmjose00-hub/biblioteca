@@ -1,11 +1,11 @@
 # Estado — biblioteca
 - Actualizado: 19/11/2026 por Claude.
-- Contexto: catálogo personal de los libros que José tiene en casa. Sin código todavía. No confundir con Biblioteca Técnica (24.Pistachos).
-- Decisiones aprobadas por José (19/11/2026): finalidad anotada en AGENTS.md; se usará en el ordenador y en el móvil, así que los datos deben estar en internet.
-- Propuesta de Claude (sin aprobar): página web sencilla (sirve en móvil y ordenador) + base de datos Supabase con acceso solo para José; datos del libro por ISBN con la API gratuita de Open Library. Fase 1: alta por ISBN, lista, buscador, estantería, leído, prestado a quién y notas. Fase 2 opcional: leer el código de barras con la cámara del móvil.
-- Bloqueo: la cuenta gratuita de Supabase ya tiene sus 2 proyectos activos (cuaderno y cuaderno-pruebas; facturas está pausado). Pendiente de que José elija: pausar cuaderno-pruebas, usar Google Sheets como almacén o pagar Supabase.
-- Herramientas comprobadas: git y rtk funcionan; Node.js instalado; `gh` se queda colgado; Python sin confirmar.
-- Fuentes para retomar: [README.md](../README.md), [AGENTS.md](../AGENTS.md).
+- Contexto: catálogo personal de los libros que José tiene en casa, para ordenador y móvil. Sin código todavía. No confundir con Biblioteca Técnica (24.Pistachos).
+- Decisiones aprobadas: ver [DECISIONES.md](DECISIONES.md) (Supabase gratuito; `cuaderno-pruebas` pausado para dejar hueco).
+- Realizado hoy: finalidad anotada en AGENTS.md; `cuaderno-pruebas` pausado; proyecto Supabase `biblioteca` creado y activo, aún sin tablas.
+- Plan propuesto (aprobado en lo general): página web sencilla + Supabase con acceso solo para José. Fase 1: alta por ISBN (Open Library), lista, buscador, estantería, leído, prestado a quién y notas. Fase 2 opcional: leer el código de barras con la cámara.
+- Pendiente de José: dónde publicar la web. El repositorio de GitHub es privado y GitHub Pages gratis exige que sea público; alternativa: Netlify o Cloudflare Pages (requiere que José cree la cuenta).
+- Herramientas: git y rtk funcionan; Node.js instalado; `gh` se queda colgado; Python sin confirmar.
 - Git: rama main; este cambio se sube tras el commit.
 - Pruebas del producto: no hay código ni pruebas; nada que ejecutar.
-- Siguiente paso: resolver dónde se guardan los datos y que José apruebe el plan; después, empezar la fase 1.
+- Siguiente paso: decidir la publicación y empezar la fase 1 (tabla de libros con seguridad por usuario y primera página).
