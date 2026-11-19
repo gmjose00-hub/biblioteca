@@ -4,8 +4,8 @@
 - Decisiones aprobadas: ver [DECISIONES.md](DECISIONES.md) (Supabase gratuito; `cuaderno-pruebas` pausado para dejar hueco).
 - Realizado hoy: finalidad anotada en AGENTS.md; `cuaderno-pruebas` pausado; proyecto Supabase `biblioteca` creado y activo, aún sin tablas.
 - Plan propuesto (aprobado en lo general): página web sencilla + Supabase con acceso solo para José. Fase 1: alta por ISBN (Open Library), lista, buscador, estantería, leído, prestado a quién y notas. Fase 2 opcional: leer el código de barras con la cámara.
-- Pendiente de José: dónde publicar la web. El repositorio de GitHub es privado y GitHub Pages gratis exige que sea público; alternativa: Netlify o Cloudflare Pages (requiere que José cree la cuenta).
-- Herramientas: git y rtk funcionan; Node.js instalado; `gh` se queda colgado; Python sin confirmar.
+- Repositorio de GitHub hecho público el 19/11/2026 a petición de José (revisado antes: sin claves ni secretos). Ya se puede usar GitHub Pages gratis. Ojo: nunca subir claves secretas de Supabase (solo la publicable, protegida con RLS).
+- Herramientas: git, rtk y `gh` funcionan; Node.js instalado; Python sin confirmar.
 - Git: rama main; este cambio se sube tras el commit.
 - Pruebas del producto: no hay código ni pruebas; nada que ejecutar.
-- Siguiente paso: decidir la publicación y empezar la fase 1 (tabla de libros con seguridad por usuario y primera página).
+- Siguiente paso: publicar con GitHub Pages y empezar la fase 1 (tabla de libros con seguridad por usuario y primera página).
