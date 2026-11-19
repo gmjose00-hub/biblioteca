@@ -1,11 +1,12 @@
 # Estado — biblioteca
-- Actualizado: 19/11/2026 por Claude (commit y subida del relevo documental de Codex del 20/10/2026, a petición de José).
-- Contexto: Repositorio con README de título; finalidad, usuario final y stack sin confirmar. No confundir con Biblioteca Técnica (24.Pistachos).
-- Objetivo autorizado: alternar Claude y Codex conservando instrucciones y contexto; sin cambios funcionales.
-- Decisión aprobada: un asistente cada vez y un resumen compartido en docs/ESTADO.md; conservar reglas y fuentes locales.
-- Realizado: Codex (20/10/2026) creó AGENTS.md y este estado y simplificó CLAUDE.md; Claude (19/11/2026) lo ha subido a GitHub sin cambiar su contenido.
+- Actualizado: 19/11/2026 por Claude.
+- Contexto: catálogo personal de los libros que José tiene en casa (finalidad confirmada por José el 19/11/2026). Sin código todavía. No confundir con Biblioteca Técnica (24.Pistachos).
+- Decisiones aprobadas: un asistente cada vez y un resumen compartido en docs/ESTADO.md; finalidad anotada en AGENTS.md.
+- Realizado: Codex (20/10/2026) creó AGENTS.md y este estado; Claude (19/11/2026) lo subió a GitHub y ha anotado la finalidad.
+- Propuesta de Claude (sin aprobar): no hace falta instalar nada; Node.js ya está instalado. Base de datos en un solo archivo (SQLite) o Supabase según dónde se use; datos del libro por ISBN con la API gratuita de Open Library.
+- Herramientas comprobadas: git y rtk funcionan; Node.js instalado; `gh` se queda colgado; Python sin confirmar (la comprobación no respondió).
 - Fuentes para retomar: [README.md](../README.md), [AGENTS.md](../AGENTS.md).
-- Git: rama main, sincronizada con origin/main tras el commit del relevo; sin cambios pendientes.
-- Pruebas del producto: no hay código ni comandos de ejecución o pruebas; nada que ejecutar.
-- Siguiente paso: preguntar a José la finalidad, el alcance y la relación con otros proyectos antes de implementar.
+- Git: rama main; este cambio se sube tras el commit.
+- Pruebas del producto: no hay código ni pruebas; nada que ejecutar.
+- Siguiente paso: que José decida si lo usará solo en el ordenador o también en el móvil (por ejemplo, para mirar en una librería si ya tiene un libro); después, proponer un plan breve.
 - Bloqueos: ninguno.

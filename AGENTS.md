@@ -1,6 +1,6 @@
 # biblioteca
 
-La finalidad, el usuario final, el stack y los comandos siguen sin confirmar. El README solo contiene el título del repositorio. No confundir este proyecto con Biblioteca Técnica (24.Pistachos). Consulta docs/ESTADO.md y pregunta antes de implementar.
+Finalidad (confirmada por José el 19/11/2026): catálogo personal de los libros que tiene en casa. Usuario final: José. El stack, los dispositivos de uso y los comandos siguen sin decidir; todavía no hay código. No confundir este proyecto con Biblioteca Técnica (24.Pistachos). Consulta docs/ESTADO.md y pregunta antes de implementar.
 
 ## Relevo compartido — vigente desde el 20/10/2026
 - Estas reglas locales sirven para Claude y Codex. Lee también `../AGENTS.md` si está disponible; las particularidades de este proyecto se conservan aquí. Si el clon está aislado, este protocolo sigue siendo aplicable.
